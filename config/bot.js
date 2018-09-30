@@ -23,12 +23,12 @@ var watson = require('watson-developer-cloud');
 // Create the service wrapper - Assistant
 
 var conversation = new watson.AssistantV1({
-     username: "9dbe6896-283e-48a2-802a-7561c04a42ae"
-    , password: "vW7U8hMzxQ3B"
+     username: "<username>"
+    , password: "<password>"
   , version: '2018-09-20'
 });
     // check if the workspace ID is specified in the environment
-    conversationWorkspace = "83af8e39-3df9-4c5b-8bf5-51066c149214";
+    conversationWorkspace = "<workspace_id>";
     // if not, look it up by name or create one
 // Allow clients to interact
 

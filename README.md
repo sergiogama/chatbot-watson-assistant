@@ -1,6 +1,6 @@
 # Exemplo de Chatbot com Watson Conversation em Node.js
 
-Este aplicação é um demo de cliente de Chatbot em Node.js que utiliza Watson Conversation. Basta criar um conversation, colocar as credenciais neste app e fazer o deploy no Bluemix. (Exemplo de criação de Watson Conversation no arquivo: https://github.com/sergiogama/chatbot/blob/master/TUTORIAL%20ChatBot.pdf).
+Este aplicação é um demo de cliente de Chatbot em Node.js que utiliza Watson Assistant. Basta criar um Watson Assistant, colocar as credenciais neste app e fazer o deploy no Bluemix. (Exemplo de criação de Watson Assistant no arquivo: https://github.com/sergiogama/chatbot/blob/master/TUTORIAL%20ChatBot.pdf).
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/sergiogama/chatbot)
 
@@ -11,7 +11,7 @@ OU
 1. [Instalar Node.js][]
 + cd no diret'roio raiz do projeto
 + Execute `npm install` para instalar as dependências do app
-+ Altere o aquivo config/bot.js e coloque as credenciais e workspace_id do conversation nas lilnhas à seguir:
++ Altere o aquivo config/bot.js e coloque as credenciais e workspace_id do Watson Assistant nas lilnhas à seguir:
     
     username = "<username>";
     password = "<password>";

@@ -1,8 +1,8 @@
 applications:
 - path: .
-  memory: 512M
+  memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: chatbot-demo
-  host: bot-do-gama
+  name: chatbot
+  host: chatbot-${random-word}
   disk_quota: 1024M

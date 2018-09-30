@@ -1,0 +1,14 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.ng.bluemix.net",
+      "Org": "watson.desenvolvedor@gmail.com",
+      "Space": "dev"
+    },
+    "Name": "chatbot-demo",
+    "Instrumentation": {}
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}

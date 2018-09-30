@@ -1,0 +1,501 @@
+{
+    "name": "Conversation-Demo",
+    "created": "2017-04-19T13:01:08.628Z",
+    "intents": [{
+        "intent": "date",
+        "created": "2017-04-19T13:37:41.153Z",
+        "updated": "2017-04-19T13:40:06.967Z",
+        "examples": [{
+            "text": "calendário",
+            "created": "2017-04-19T13:40:06.967Z",
+            "updated": "2017-04-19T13:40:06.967Z"
+        }, {
+            "text": "data",
+            "created": "2017-04-19T13:40:04.117Z",
+            "updated": "2017-04-19T13:40:04.117Z"
+        }, {
+            "text": "Dia de hoje?",
+            "created": "2017-04-19T13:39:54.713Z",
+            "updated": "2017-04-19T13:39:54.713Z"
+        }, {
+            "text": "hoje é",
+            "created": "2017-04-19T13:40:01.975Z",
+            "updated": "2017-04-19T13:40:01.975Z"
+        }, {
+            "text": "Qual a data de hoje",
+            "created": "2017-04-19T13:39:58.795Z",
+            "updated": "2017-04-19T13:39:58.795Z"
+        }, {
+            "text": "Que dia é hoje?",
+            "created": "2017-04-19T13:39:49.519Z",
+            "updated": "2017-04-19T13:39:49.519Z"
+        }],
+        "description": null
+    }, {
+        "intent": "help",
+        "created": "2017-04-19T13:31:55.914Z",
+        "updated": "2017-04-19T13:36:34.508Z",
+        "examples": [{
+            "text": "Ajuda",
+            "created": "2017-04-19T13:34:45.421Z",
+            "updated": "2017-04-19T13:34:45.421Z"
+        }, {
+            "text": "comandos",
+            "created": "2017-04-19T13:36:19.115Z",
+            "updated": "2017-04-19T13:36:19.115Z"
+        }, {
+            "text": "Como você pode me ajudar",
+            "created": "2017-04-19T13:35:22.371Z",
+            "updated": "2017-04-19T13:35:22.371Z"
+        }, {
+            "text": "Help",
+            "created": "2017-04-19T13:35:00.717Z",
+            "updated": "2017-04-19T13:35:00.717Z"
+        }, {
+            "text": "lista",
+            "created": "2017-04-19T13:36:21.114Z",
+            "updated": "2017-04-19T13:36:21.114Z"
+        }, {
+            "text": "lista de comandos",
+            "created": "2017-04-19T13:36:24.607Z",
+            "updated": "2017-04-19T13:36:24.607Z"
+        }, {
+            "text": "lista do que fazer",
+            "created": "2017-04-19T13:36:28.888Z",
+            "updated": "2017-04-19T13:36:28.888Z"
+        }, {
+            "text": "Me ajude",
+            "created": "2017-04-19T13:34:39.868Z",
+            "updated": "2017-04-19T13:34:39.868Z"
+        }, {
+            "text": "me diga alguma coisa",
+            "created": "2017-04-19T13:36:34.508Z",
+            "updated": "2017-04-19T13:36:34.508Z"
+        }, {
+            "text": "Não sei o que fazer",
+            "created": "2017-04-19T13:35:16.027Z",
+            "updated": "2017-04-19T13:35:16.027Z"
+        }, {
+            "text": "não sei pra que você existe",
+            "created": "2017-04-19T13:36:11.118Z",
+            "updated": "2017-04-19T13:36:11.118Z"
+        }, {
+            "text": "O que fazer?",
+            "created": "2017-04-19T13:35:34.987Z",
+            "updated": "2017-04-19T13:35:34.987Z"
+        }, {
+            "text": "O que você faz?",
+            "created": "2017-04-19T13:35:42.947Z",
+            "updated": "2017-04-19T13:35:42.947Z"
+        }, {
+            "text": "O que você sabe fazer?",
+            "created": "2017-04-19T13:35:28.506Z",
+            "updated": "2017-04-19T13:35:28.506Z"
+        }, {
+            "text": "Para que você foi criada?",
+            "created": "2017-04-19T13:35:50.694Z",
+            "updated": "2017-04-19T13:35:50.694Z"
+        }, {
+            "text": "porquê você existe?",
+            "created": "2017-04-19T13:36:04.591Z",
+            "updated": "2017-04-19T13:36:04.591Z"
+        }, {
+            "text": "Pra que você existe?",
+            "created": "2017-04-19T13:35:56.944Z",
+            "updated": "2017-04-19T13:35:56.944Z"
+        }, {
+            "text": "Preciso de ajuda",
+            "created": "2017-04-19T13:34:55.010Z",
+            "updated": "2017-04-19T13:34:55.010Z"
+        }, {
+            "text": "quais são os seus comandos",
+            "created": "2017-04-19T13:36:17.018Z",
+            "updated": "2017-04-19T13:36:17.018Z"
+        }, {
+            "text": "Socorro",
+            "created": "2017-04-19T13:35:07.206Z",
+            "updated": "2017-04-19T13:35:07.206Z"
+        }, {
+            "text": "SOS",
+            "created": "2017-04-19T13:35:04.089Z",
+            "updated": "2017-04-19T13:35:04.089Z"
+        }],
+        "description": null
+    }, {
+        "intent": "off-topic",
+        "created": "2017-04-19T13:46:51.048Z",
+        "updated": "2017-04-19T13:48:55.393Z",
+        "examples": [{
+            "text": "burro",
+            "created": "2017-04-19T13:47:56.786Z",
+            "updated": "2017-04-19T13:47:56.786Z"
+        }, {
+            "text": "casa comigo?",
+            "created": "2017-04-19T13:48:40.813Z",
+            "updated": "2017-04-19T13:48:40.813Z"
+        }, {
+            "text": "estúpido",
+            "created": "2017-04-19T13:48:55.393Z",
+            "updated": "2017-04-19T13:48:55.393Z"
+        }, {
+            "text": "gosto de você",
+            "created": "2017-04-19T13:48:46.656Z",
+            "updated": "2017-04-19T13:48:46.656Z"
+        }, {
+            "text": "idiota",
+            "created": "2017-04-19T13:47:53.980Z",
+            "updated": "2017-04-19T13:47:53.980Z"
+        }, {
+            "text": "não sabe fazer nada",
+            "created": "2017-04-19T13:48:02.356Z",
+            "updated": "2017-04-19T13:48:02.356Z"
+        }, {
+            "text": "porque você é idiota",
+            "created": "2017-04-19T13:47:50.399Z",
+            "updated": "2017-04-19T13:47:50.399Z"
+        }, {
+            "text": "porque você não me ajuda",
+            "created": "2017-04-19T13:48:10.318Z",
+            "updated": "2017-04-19T13:48:10.318Z"
+        }, {
+            "text": "Qual sua idade",
+            "created": "2017-04-19T13:47:43.093Z",
+            "updated": "2017-04-19T13:47:43.093Z"
+        }, {
+            "text": "que droga você não me ajuda",
+            "created": "2017-04-19T13:48:16.639Z",
+            "updated": "2017-04-19T13:48:16.639Z"
+        }, {
+            "text": "que raiva de você",
+            "created": "2017-04-19T13:48:51.725Z",
+            "updated": "2017-04-19T13:48:51.725Z"
+        }, {
+            "text": "te adoro",
+            "created": "2017-04-19T13:48:36.740Z",
+            "updated": "2017-04-19T13:48:36.740Z"
+        }, {
+            "text": "te amo",
+            "created": "2017-04-19T13:48:34.395Z",
+            "updated": "2017-04-19T13:48:34.395Z"
+        }, {
+            "text": "te odeio",
+            "created": "2017-04-19T13:48:31.864Z",
+            "updated": "2017-04-19T13:48:31.864Z"
+        }, {
+            "text": "você é horrivel",
+            "created": "2017-04-19T13:48:28.686Z",
+            "updated": "2017-04-19T13:48:28.686Z"
+        }, {
+            "text": "você é muito ruim",
+            "created": "2017-04-19T13:48:22.071Z",
+            "updated": "2017-04-19T13:48:22.071Z"
+        }],
+        "description": null
+    }, {
+        "intent": "smalltalk",
+        "created": "2017-04-19T13:49:40.647Z",
+        "updated": "2017-04-19T13:59:29.890Z",
+        "examples": [{
+            "text": "como está?",
+            "created": "2017-04-19T13:58:28.469Z",
+            "updated": "2017-04-19T13:58:28.469Z"
+        }, {
+            "text": "como que tu tá?",
+            "created": "2017-04-19T13:58:39.342Z",
+            "updated": "2017-04-19T13:58:39.342Z"
+        }, {
+            "text": "como vai?",
+            "created": "2017-04-19T13:58:24.096Z",
+            "updated": "2017-04-19T13:58:24.096Z"
+        }, {
+            "text": "como vai você?",
+            "created": "2017-04-19T13:58:33.395Z",
+            "updated": "2017-04-19T13:58:33.395Z"
+        }, {
+            "text": "como você está se sentindo",
+            "created": "2017-04-19T13:58:56.299Z",
+            "updated": "2017-04-19T13:58:56.299Z"
+        }, {
+            "text": "eai?",
+            "created": "2017-04-19T13:59:27.736Z",
+            "updated": "2017-04-19T13:59:27.736Z"
+        }, {
+            "text": "e aí?",
+            "created": "2017-04-19T13:59:01.751Z",
+            "updated": "2017-04-19T13:59:01.751Z"
+        }, {
+            "text": "eaii",
+            "created": "2017-04-19T13:59:29.890Z",
+            "updated": "2017-04-19T13:59:29.890Z"
+        }, {
+            "text": "e ai? só de boa?",
+            "created": "2017-04-19T13:59:19.672Z",
+            "updated": "2017-04-19T13:59:19.672Z"
+        }, {
+            "text": "qual a boa ?",
+            "created": "2017-04-19T13:58:46.580Z",
+            "updated": "2017-04-19T13:58:46.580Z"
+        }, {
+            "text": "qual a boa de hoje?",
+            "created": "2017-04-19T13:58:50.897Z",
+            "updated": "2017-04-19T13:58:50.897Z"
+        }, {
+            "text": "qual a brisa?",
+            "created": "2017-04-19T13:59:11.475Z",
+            "updated": "2017-04-19T13:59:11.475Z"
+        }, {
+            "text": "qual a fita?",
+            "created": "2017-04-19T13:59:07.101Z",
+            "updated": "2017-04-19T13:59:07.101Z"
+        }, {
+            "text": "só de boa?",
+            "created": "2017-04-19T13:59:23.512Z",
+            "updated": "2017-04-19T13:59:23.512Z"
+        }, {
+            "text": "tudo bem?",
+            "created": "2017-04-19T13:58:21.558Z",
+            "updated": "2017-04-19T13:58:21.558Z"
+        }],
+        "description": null
+    }, {
+        "intent": "time",
+        "created": "2017-04-19T13:40:26.615Z",
+        "updated": "2017-04-19T13:42:58.811Z",
+        "examples": [{
+            "text": "agora é",
+            "created": "2017-04-19T13:40:59.665Z",
+            "updated": "2017-04-19T13:40:59.665Z"
+        }, {
+            "text": "horario",
+            "created": "2017-04-19T13:42:58.811Z",
+            "updated": "2017-04-19T13:42:58.811Z"
+        }, {
+            "text": "horário",
+            "created": "2017-04-19T13:41:02.831Z",
+            "updated": "2017-04-19T13:41:02.831Z"
+        }, {
+            "text": "horas",
+            "created": "2017-04-19T13:40:51.168Z",
+            "updated": "2017-04-19T13:40:51.168Z"
+        }, {
+            "text": "não sei que horas são",
+            "created": "2017-04-19T13:41:10.986Z",
+            "updated": "2017-04-19T13:41:10.986Z"
+        }, {
+            "text": "que horas",
+            "created": "2017-04-19T13:40:54.878Z",
+            "updated": "2017-04-19T13:40:54.878Z"
+        }, {
+            "text": "Que horas são",
+            "created": "2017-04-19T13:40:26.615Z",
+            "updated": "2017-04-19T13:40:26.615Z"
+        }],
+        "description": null
+    }],
+    "updated": "2017-04-19T14:04:13.964Z",
+    "entities": [{
+        "entity": "response",
+        "values": [{
+            "value": "nao",
+            "created": "2017-04-19T13:51:55.077Z",
+            "updated": "2017-04-19T13:54:32.040Z",
+            "metadata": null,
+            "synonyms": ["nananinanão", "não", "naonao", "não não", "nao né", "nãozinho", "nein", "no", "non", "nop", "nope", "obvio que nao"]
+        }, {
+            "value": "negativo",
+            "created": "2017-04-19T14:03:14.891Z",
+            "updated": "2017-04-19T14:03:47.205Z",
+            "metadata": null,
+            "synonyms": ["deu ruim", "deu zebra", "malzao", "muito mal", "nada bem", "nada de boa", "nada sussa", "nao to sussa", "ta ruim", "ta tenso", "to mal", "to tenso"]
+        }, {
+            "value": "positivo",
+            "created": "2017-04-19T14:03:08.648Z",
+            "updated": "2017-04-19T14:03:08.648Z",
+            "metadata": null,
+            "synonyms": ["bem", "bem de boa", "bom", "bom demais", "estou bem", "extremamente bem", "muito bem", "muito de boa", "suave", "suave na nave", "sussa", "to bem demais", "to de boa"]
+        }, {
+            "value": "sim",
+            "created": "2017-04-19T13:51:22.363Z",
+            "updated": "2017-04-19T13:55:09.234Z",
+            "metadata": null,
+            "synonyms": ["certeza", "claro", "com certeza", "com toda certeza", "obviamente", "obvio", "óbvio", "oui", "si", "sí", "sim né", "yes"]
+        }],
+        "created": "2017-04-19T13:51:22.363Z",
+        "updated": "2017-04-19T14:03:47.205Z",
+        "metadata": null,
+        "description": null
+    }, {
+        "entity": "sys-date",
+        "values": [],
+        "created": "2017-04-19T13:37:07.520Z",
+        "updated": "2017-04-19T13:37:07.520Z",
+        "metadata": null,
+        "description": null
+    }, {
+        "entity": "sys-time",
+        "values": [],
+        "created": "2017-04-19T13:37:05.159Z",
+        "updated": "2017-04-19T13:37:05.159Z",
+        "metadata": null,
+        "description": null
+    }],
+    "language": "pt-br",
+    "metadata": null,
+    "description": "This is only the template for the conversation, please change the name, description and language.",
+    "dialog_nodes": [{
+        "go_to": null,
+        "output": {
+            "text": {
+                "values": ["A data de hoje é @sys-date"],
+                "selection_policy": "sequential"
+            }
+        },
+        "parent": null,
+        "context": null,
+        "created": "2017-04-19T13:37:34.703Z",
+        "updated": "2017-04-19T13:42:39.501Z",
+        "metadata": null,
+        "conditions": "#date",
+        "description": null,
+        "dialog_node": "node_4_1492609052923",
+        "previous_sibling": "node_7_1492609762113"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": {
+                "values": ["Estou bem, e você?"],
+                "selection_policy": "sequential"
+            }
+        },
+        "parent": null,
+        "context": null,
+        "created": "2017-04-19T13:49:23.892Z",
+        "updated": "2017-04-19T13:51:05.006Z",
+        "metadata": null,
+        "conditions": "#smalltalk",
+        "description": null,
+        "dialog_node": "node_7_1492609762113",
+        "previous_sibling": "node_3_1492608703569"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": {
+                "values": ["Fico feliz em saber disso!"],
+                "selection_policy": "sequential"
+            }
+        },
+        "parent": "node_7_1492609762113",
+        "context": null,
+        "created": "2017-04-19T13:51:10.953Z",
+        "updated": "2017-04-19T14:04:06.697Z",
+        "metadata": null,
+        "conditions": "@response:positivo",
+        "description": null,
+        "dialog_node": "node_8_1492609869156",
+        "previous_sibling": null
+    }, {
+        "go_to": null,
+        "output": {
+            "text": {
+                "values": ["Me desculpe, não entendi o que você falou.."],
+                "selection_policy": "sequential"
+            }
+        },
+        "parent": null,
+        "context": null,
+        "created": "2017-04-19T13:30:44.826Z",
+        "updated": "2017-04-19T13:31:44.554Z",
+        "metadata": null,
+        "conditions": "anything_else",
+        "description": null,
+        "dialog_node": "node_2_1492608643081",
+        "previous_sibling": "node_6_1492609601964"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": {
+                "values": ["Não fui criado para falar disso, desculpe."],
+                "selection_policy": "sequential"
+            }
+        },
+        "parent": null,
+        "context": null,
+        "created": "2017-04-19T13:46:43.783Z",
+        "updated": "2017-04-19T13:47:30.603Z",
+        "metadata": null,
+        "conditions": "#off-topic",
+        "description": null,
+        "dialog_node": "node_6_1492609601964",
+        "previous_sibling": "node_5_1492609296560"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": {
+                "values": ["O horário local é @sys-time"],
+                "selection_policy": "sequential"
+            }
+        },
+        "parent": null,
+        "context": null,
+        "created": "2017-04-19T13:41:38.317Z",
+        "updated": "2017-04-19T13:42:26.322Z",
+        "metadata": null,
+        "conditions": "#time",
+        "description": null,
+        "dialog_node": "node_5_1492609296560",
+        "previous_sibling": "node_4_1492609052923"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": {
+                "values": ["Que pena, mas não se preocupe você vai melhorar."],
+                "selection_policy": "sequential"
+            }
+        },
+        "parent": "node_7_1492609762113",
+        "context": null,
+        "created": "2017-04-19T13:51:40.133Z",
+        "updated": "2017-04-19T14:04:13.964Z",
+        "metadata": null,
+        "conditions": "@response:negativo",
+        "description": null,
+        "dialog_node": "node_9_1492609898369",
+        "previous_sibling": "node_8_1492609869156"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": {
+                "values": ["Eu posso te ajudar com (lista de comandos vai aqui.)", "Os meus comandos são: (lista de comandos vai aqui.)"],
+                "selection_policy": "random"
+            }
+        },
+        "parent": null,
+        "context": null,
+        "created": "2017-04-19T13:31:45.315Z",
+        "updated": "2017-04-19T13:34:21.764Z",
+        "metadata": null,
+        "conditions": "#help",
+        "description": null,
+        "dialog_node": "node_3_1492608703569",
+        "previous_sibling": "node_1_1492608634105"
+    }, {
+        "go_to": null,
+        "output": {
+            "text": {
+                "values": ["Oi tudo bem? Estou aqui para te ajudar.", "Olá, como vai? Qualquer coisa pode me chamar."],
+                "selection_policy": "random"
+            }
+        },
+        "parent": null,
+        "context": null,
+        "created": "2017-04-19T13:30:35.857Z",
+        "updated": "2017-04-19T13:31:12.414Z",
+        "metadata": null,
+        "conditions": "conversation_start",
+        "description": null,
+        "dialog_node": "node_1_1492608634105",
+        "previous_sibling": null
+    }],
+    "workspace_id": "1192ecbb-ec45-4f9c-90b6-6e44293a25c1",
+    "counterexamples": []
+}

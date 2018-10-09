@@ -21,12 +21,20 @@ var watson = require('watson-developer-cloud');
 // CREATE THE SERVICE WRAPPER ==========
 // =====================================
 // Create the service wrapper - Assistant
-
+// Com username e password
 var conversation = new watson.AssistantV1({
      username: "<username>"
     , password: "<password>"
   , version: '2018-09-20'
 });
+// Com API Key
+/*
+var conversation = new watson.AssistantV1({
+    iam_apikey: '<API Key>',
+    version: '2018-09-20',
+    url: 'https://gateway-wdc.watsonplatform.net/assistant/api'
+});
+*/
     // check if the workspace ID is specified in the environment
     conversationWorkspace = "<workspace_id>";
     // if not, look it up by name or create one

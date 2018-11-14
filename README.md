@@ -1,6 +1,6 @@
 # Exemplo de Chatbot com Watson Assistant em Node.js
 
-Este aplicação é um demo de cliente de Chatbot em Node.js que utiliza Watson Assistant. Basta criar um Watson Assistant, colocar as credenciais neste app e fazer o deploy no Bluemix. (Exemplo de criação de Watson Assistant no arquivo: https://github.com/sergiogama/chatbot/blob/master/TUTORIAL%20ChatBot.pdf).
+Este aplicação é um demo de cliente de Chatbot em Node.js que utiliza Watson Assistant. Basta criar um Watson Assistant, colocar as credenciais neste app e fazer o deploy no Bluemix. (Exemplo de criação de Watson Assistant no arquivo: https://github.com/sergiogama/chatbot-watson-assistant/blob/master/TUTORIAL%20ChatBot.pdf).
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/sergiogama/chatbot-watson-assistant)
 

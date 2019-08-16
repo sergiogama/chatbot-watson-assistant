@@ -21,26 +21,14 @@ var watson = require('watson-developer-cloud');
 // CREATE THE SERVICE WRAPPER ==========
 // =====================================
 // Create the service wrapper - Assistant
-// Com username e password
-/*
-var assistant = new watson.AssistantV1({
-     username: "<username>"
-    , password: "<password>"
-  , version: '2018-09-20'
-});
-*/
-// Com API Key
-
+// Get API Key and Workspace_id and change the fields below
+// Watson Assistant service and credentials
 var assistant = new watson.AssistantV1({
     iam_apikey: '<API Key>',
-    version: '2018-09-20',
+    version: '2019-08-16',
     url: 'https://gateway.watsonplatform.net/assistant/api'
 });
-
-    // check if the workspace ID is specified in the environment
-    workspace_id = "<workspace_id>";
-    // if not, look it up by name or create one
-// Allow clients to interact
+workspace_id = "<workspace_id>";
 
 var chatbot = {
     sendMessage: function (req, callback) {

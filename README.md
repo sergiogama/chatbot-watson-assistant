@@ -13,8 +13,8 @@ OU
 + Execute `npm install` para instalar as dependências do app
 + Altere o aquivo config/bot.js e coloque as credenciais e workspace_id do Watson Assistant nas lilnhas à seguir:
     
-    iam_apikey = "<API_Key>";
-    workspace_id = "<workspace_id>";
+    * iam_apikey = "<API_Key>";
+    * workspace_id = "<workspace_id>";
 
 + Execute `npm start` para o iniciar o app
 + Acesse a aplicação no browser no link <http://localhost:6001>
